@@ -16,36 +16,36 @@ namespace sigmadt {
 
 
     template<class S, class = void>
-    class optional;
+    class cexpr_optional_impl;
 
 
 
     template<class S>
-    class optional<S, std::enable_if_t<!is_literal_type_v<S>>>{
+    class cexpr_optional_impl<S, std::enable_if_t<!is_literal_type_v<S>>>{
     public:
-        optional() : is_inside(false) {}
+        cexpr_optional_impl() : is_inside(false) {}
 
-        optional(const S& el) : is_inside(true), content() {
+        cexpr_optional_impl(const S& el) : is_inside(true), content() {
             new(&content) S(el);
         }
 
-        optional(S&& el) : is_inside(true), content() {
+        cexpr_optional_impl(S&& el) : is_inside(true), content() {
             new(&content) S(std::move(el));
         }
 
-        optional(const optional& other) : is_inside(other.is_inside), content()  {
+        cexpr_optional_impl(const cexpr_optional_impl& other) : is_inside(other.is_inside), content()  {
             if (other.is_inside) {
                 new(&content) S(*reinterpret_cast<const S*>(&other.content));
             }
         }
 
-        optional(optional&& other) noexcept : is_inside(other.is_inside), content()  {
+        cexpr_optional_impl(cexpr_optional_impl&& other) noexcept : is_inside(other.is_inside), content()  {
             if (other.is_inside) {
                 new(&content) S(std::move(*reinterpret_cast<S*>(&other.content)));
             }
         }
 
-        ~optional() {
+        ~cexpr_optional_impl() {
             if (is_inside) {
                 reinterpret_cast<const S*>(&content)->~S();
             }
@@ -58,7 +58,7 @@ namespace sigmadt {
             }
         }
 
-        optional& operator=(const optional& other) {
+        cexpr_optional_impl& operator=(const cexpr_optional_impl& other) {
             if (static_cast<const void*>(&content) == static_cast<const void*>(&other.content)) {
                 return *this;
             }
@@ -73,7 +73,7 @@ namespace sigmadt {
             return *this;
         }
 
-        optional& operator=(optional&& other) noexcept {
+        cexpr_optional_impl& operator=(cexpr_optional_impl&& other) noexcept {
             if (this == &other) {
                 return *this;
             }
@@ -120,7 +120,7 @@ namespace sigmadt {
             return is_inside ? value() : el;
         }
 
-        friend bool operator==(const optional& x, const optional& y) {
+        friend bool operator==(const cexpr_optional_impl& x, const cexpr_optional_impl& y) {
             if (!x.is_inside && !y.is_inside) {
                 return true;
             }
@@ -131,7 +131,7 @@ namespace sigmadt {
             return *reinterpret_cast<const S*>(&x.content) == *reinterpret_cast<const S*>(&y.content);
         }
 
-        friend bool operator==(const optional& x, const S& el) {
+        friend bool operator==(const cexpr_optional_impl& x, const S& el) {
             if (!x.is_inside) {
                 return false;
             }
@@ -139,7 +139,7 @@ namespace sigmadt {
             return *reinterpret_cast<const S*>(&x.content) == *reinterpret_cast<const S*>(&el);
         }
 
-        friend bool operator==(const S& el, const optional& x) {
+        friend bool operator==(const S& el, const cexpr_optional_impl& x) {
             return x == el;
         }
 
@@ -154,17 +154,17 @@ namespace sigmadt {
 namespace sigmadt {
 
     template<class S>
-    class optional<S, std::enable_if_t<is_literal_type_v<S>>> {
+    class cexpr_optional_impl<S, std::enable_if_t<is_literal_type_v<S>>> {
     public:
-        constexpr optional() : is_inside(false), support()  {}
+        constexpr cexpr_optional_impl() : is_inside(false), support()  {}
 
-        constexpr optional(const S& el) : is_inside(true), content(el)  {}
-        constexpr optional(S&& el) : is_inside(true), content(std::move(el))  {}
+        constexpr cexpr_optional_impl(const S& el) : is_inside(true), content(el)  {}
+        constexpr cexpr_optional_impl(S&& el) : is_inside(true), content(std::move(el))  {}
 
-        constexpr optional(const optional& other) : is_inside(other.is_inside), content(other.content)  {}
-        constexpr optional(optional&& other) noexcept : is_inside(other.is_inside), content(std::move(other.content)) {}
+        constexpr cexpr_optional_impl(const cexpr_optional_impl& other) : is_inside(other.is_inside), content(other.content)  {}
+        constexpr cexpr_optional_impl(cexpr_optional_impl&& other) noexcept : is_inside(other.is_inside), content(std::move(other.content)) {}
 
-        constexpr optional& operator=(const optional& other) {
+        constexpr cexpr_optional_impl& operator=(const cexpr_optional_impl& other) {
             if (this == &other) {
                 return *this;
             }
@@ -174,7 +174,7 @@ namespace sigmadt {
             return *this;
         }
 
-        constexpr optional& operator=(optional&& other) noexcept {
+        constexpr cexpr_optional_impl& operator=(cexpr_optional_impl&& other) noexcept {
             if (this == &other) {
                 return *this;
             }
@@ -184,7 +184,7 @@ namespace sigmadt {
             return *this;
         }
 
-        constexpr optional& operator=(const S& el) {
+        constexpr cexpr_optional_impl& operator=(const S& el) {
             if (&content == &el) {
                 return *this;
             }
@@ -194,7 +194,7 @@ namespace sigmadt {
             return *this;
         }
 
-        constexpr optional& operator=(S&& el) noexcept {
+        constexpr cexpr_optional_impl& operator=(S&& el) noexcept {
             if (&content == &el) {
                 return *this;
             }
@@ -244,15 +244,15 @@ namespace sigmadt {
             return is_inside ? content : el;
         }
 
-        constexpr friend bool operator==(const optional& x, const optional& y) {
+        constexpr friend bool operator==(const cexpr_optional_impl& x, const cexpr_optional_impl& y) {
             return x.content == y.content;
         }
 
-        constexpr friend bool operator==(const optional& x, const S& el) {
+        constexpr friend bool operator==(const cexpr_optional_impl& x, const S& el) {
             return x.content == el;
         }
 
-        constexpr friend bool operator==(const S& el, const optional& x) {
+        constexpr friend bool operator==(const S& el, const cexpr_optional_impl& x) {
             return x == el;
         }
 
