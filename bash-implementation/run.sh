@@ -1,0 +1,1 @@
+./gradlew uberJar > /dev/null 2>&1 && java -jar build/libs/bash-imitation-1.0-SNAPSHOT-uber.jar
