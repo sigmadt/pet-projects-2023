@@ -104,7 +104,5 @@ namespace utils {
         elem = insider<S>{}.read_func(d);
     }
 
-
 }
-
 
