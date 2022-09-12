@@ -1,4 +1,4 @@
-# HW3-grep
+# Bash project
 
 This is my bash implementation. I did my best in order to make this shell work. Enjoy using this tool!
 
