@@ -1,4 +1,4 @@
-# Bash project
+# Shell project
 
 This is my bash implementation. I did my best in order to make this shell work. Enjoy using this tool!
 
@@ -18,7 +18,7 @@ This is my bash implementation. I did my best in order to make this shell work. 
     * Usage:  
       `grep [option]... [pattern] [file]`
     * Options:  
-      `-i`  perform case insensitive matching  
+      `-i`  perform case-insensitive matching  
       `-c`  only a count of selected lines is written to standard output  
       `-l`  only the names of files containing selected lines are written to standard output  
       `-w`  the expression is searched for as a word   
