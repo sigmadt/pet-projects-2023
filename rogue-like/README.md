@@ -1,4 +1,4 @@
-# HW-roguelike-game
+# Roguelike-game
 
 Hello fellas! This is my own implementation of **"PURPLE HAZE"** game  in classic roguelike genre.
 
