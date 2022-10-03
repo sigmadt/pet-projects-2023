@@ -2,9 +2,9 @@
 
 Hello fellas! This is my own implementation of **"PURPLE HAZE"** game  in classic roguelike genre.
 
-Imagine that you are legendary Jimmy Hendrix and you are worried 
+Imagine that you are legendary Jimi Hendrix and you are worried 
 that there are a lot of haters and doubters around you. 
-They critize your music, your lifestyle, even your haircut. Screw this and let's blow off steam playing this game!
+They criticize your music, your lifestyle, even your haircut. Screw this and let's blow off steam playing this game!
 
 **Attention!** Reduce your volume level or put on headphones – you will be surprised to hear beautiful song.
 
@@ -28,8 +28,8 @@ Good luck!
 * [`Abstract mercenary`](src/ru/itmo/sd/game/mercenary/AbstractMerc.java) abstract class sets the rules of the units' 
   movement on a map
   
-## Launching project instructure
-Simply clone repository and run `./run.sh` scipt file from the root. Enjoy! 🔮
+## Launching project instruction
+Simply clone repository and run `./run.sh` script file from the root. Enjoy! 🔮
   
 
 
