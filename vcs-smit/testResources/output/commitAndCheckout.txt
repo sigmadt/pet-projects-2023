@@ -1,0 +1,32 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit ykltchxc21jz3gaw74bxtovsg4hf7z
+author: USER
+date: 2022/10/11;19:49:40
+message: "2"
+
+commit 5wnmd1pzcq16iabnh9e799ey6k76cx
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit b6a121gclw6961d4parh8zxbgnifam
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+You are in 'detached HEAD' state.
+checkout done
+----------------------------
+HEAD detached at 5wnmd1pzcq16iabnh9e799ey6k76cx
+Untracked files:
+	new:     	y.py
+----------------------------

@@ -1,0 +1,25 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit 3fnlba0vunxe2qe9j2jjvh13ti51qt
+author: USER
+date: 2022/10/11;19:49:40
+message: "2"
+
+commit jc1lkjsqck4vbd6jiktybi6tjmyzfq
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit 01521jgfztvmwnm3drgx6r11re0qlf
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------

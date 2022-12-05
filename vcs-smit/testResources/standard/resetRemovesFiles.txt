@@ -1,0 +1,22 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+reset done
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------

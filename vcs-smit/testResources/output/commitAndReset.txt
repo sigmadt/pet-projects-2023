@@ -1,0 +1,62 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit i0s4q7ia1acpt1b6j59afbgfz6prut
+author: USER
+date: 2022/10/11;19:49:40
+message: "2"
+
+commit qoowtgogzhkhd3bvb0v6x79a3moz20
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit cum2ehc11ps6nxwh3lbofh2m1yaq01
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+reset done
+----------------------------
+commit qoowtgogzhkhd3bvb0v6x79a3moz20
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit cum2ehc11ps6nxwh3lbofh2m1yaq01
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+----------------------------
+created file 'z.cpp' with content '#include <iostream>'
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit n3o9s4tywmwda70rehp14rtfw5hj0s
+author: USER
+date: 2022/10/11;19:49:40
+message: "3"
+
+commit qoowtgogzhkhd3bvb0v6x79a3moz20
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit cum2ehc11ps6nxwh3lbofh2m1yaq01
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------

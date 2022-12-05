@@ -1,0 +1,63 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+now current branch is: <branchX>
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit qc9iic46x5o1wjulnvmgujvsa3h1oh
+author: USER
+date: 2022/10/11;19:49:40
+message: "2"
+
+commit ydfk6mr3ex9whrlc0xaug6beab1ir4
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit m6egxyol4j7d7njuqxx2b2j7zpy0f6
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+checkout done
+----------------------------
+commit ydfk6mr3ex9whrlc0xaug6beab1ir4
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit m6egxyol4j7d7njuqxx2b2j7zpy0f6
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+merge is done
+----------------------------
+commit atmbu7eqocai98008bvm0k1jy1mwo7
+author: USER
+date: 2022/10/11;19:49:40
+message: merged <master> with <branchX> successfully
+
+commit ydfk6mr3ex9whrlc0xaug6beab1ir4
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit m6egxyol4j7d7njuqxx2b2j7zpy0f6
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+On branch <master>
+Everything is up to date!
+----------------------------

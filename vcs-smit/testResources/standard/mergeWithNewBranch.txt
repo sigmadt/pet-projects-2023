@@ -1,0 +1,63 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+now current branch is: <branchX>
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "2"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------
+checkout done
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------
+merge is done
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: merged <master> with <branchX> successfully
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------
+On branch <master>
+Everything is up to date!
+----------------------------

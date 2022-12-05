@@ -1,0 +1,53 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit eftxevgtrd5ao3ikl3455o58row218
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit e7teec6sbpau64b8j1uvo6ev2tdby1
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+now current branch is: <new>
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit o546q1mgan0co44vwzax42cc24w3mi
+author: USER
+date: 2022/10/11;19:49:40
+message: "new2"
+
+commit eftxevgtrd5ao3ikl3455o58row218
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit e7teec6sbpau64b8j1uvo6ev2tdby1
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+checkout done
+----------------------------
+commit eftxevgtrd5ao3ikl3455o58row218
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit e7teec6sbpau64b8j1uvo6ev2tdby1
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------

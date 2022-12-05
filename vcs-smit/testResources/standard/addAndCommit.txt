@@ -1,0 +1,12 @@
+given files were added to index
+----------------------------
+On branch <master>
+Changes to be committed:
+	new:     	x.txt
+	new:     	y.py
+----------------------------
+commited successfully!
+----------------------------
+On branch <master>
+Everything is up to date!
+----------------------------

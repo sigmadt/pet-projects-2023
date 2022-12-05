@@ -1,0 +1,53 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------
+now current branch is: <new>
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "new2"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------
+checkout done
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------

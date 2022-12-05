@@ -1,0 +1,66 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit aqm3xvalyonwkytb0uezpw2i5fdgny
+author: USER
+date: 2022/10/11;19:49:40
+message: "2"
+
+commit y5f4ma2aoyhqsfic8eiknwq7a6kafu
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit 3cgemba0nkt1m7q5ke8dnc6m5sehli
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+You are in 'detached HEAD' state.
+checkout done
+----------------------------
+HEAD detached at y5f4ma2aoyhqsfic8eiknwq7a6kafu
+Untracked files:
+	new:     	y.py
+----------------------------
+commit y5f4ma2aoyhqsfic8eiknwq7a6kafu
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit 3cgemba0nkt1m7q5ke8dnc6m5sehli
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------
+checkout done
+----------------------------
+On branch <master>
+Everything is up to date!
+----------------------------
+commit aqm3xvalyonwkytb0uezpw2i5fdgny
+author: USER
+date: 2022/10/11;19:49:40
+message: "2"
+
+commit y5f4ma2aoyhqsfic8eiknwq7a6kafu
+author: USER
+date: 2022/10/11;19:49:40
+message: "1"
+
+commit 3cgemba0nkt1m7q5ke8dnc6m5sehli
+author: USER
+date: 2022/10/11;19:49:40
+message: init commit
+
+
+----------------------------

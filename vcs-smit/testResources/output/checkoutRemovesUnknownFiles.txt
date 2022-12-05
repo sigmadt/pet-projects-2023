@@ -1,0 +1,26 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+You are in 'detached HEAD' state.
+checkout done
+----------------------------
+HEAD detached at f3stooe9o1bnrwtmlx2kqur68hapmn
+Everything is up to date!
+----------------------------
+commit f3stooe9o1bnrwtmlx2kqur68hapmn
+author: USER
+date: 2022/11/01;21:09:02
+message: "1"
+
+commit x38q5qqconvq88k276oeoqk6kkpeuh
+author: USER
+date: 2022/11/01;21:09:02
+message: init commit
+
+
+----------------------------

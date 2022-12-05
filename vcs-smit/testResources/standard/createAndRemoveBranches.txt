@@ -1,0 +1,12 @@
+now current branch is: <branchX>
+----------------------------
+now current branch is: <branchY>
+----------------------------
+branch <branchX> was removed 
+----------------------------
+available branches:
+	HEAD -> branchY
+	master
+----------------------------
+invalid branch name given, use "show-branches" to display available branches
+----------------------------

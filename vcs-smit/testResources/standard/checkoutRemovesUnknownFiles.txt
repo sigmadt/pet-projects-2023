@@ -1,0 +1,26 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+You are in 'detached HEAD' state.
+checkout done
+----------------------------
+HEAD detached at COMMIT_HASH
+Everything is up to date!
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------

@@ -1,0 +1,12 @@
+now current branch is: <branchX>
+----------------------------
+now current branch is: <branchY>
+----------------------------
+now current branch is: <branchZ>
+----------------------------
+available branches:
+	HEAD -> branchZ
+	branchY
+	branchX
+	master
+----------------------------

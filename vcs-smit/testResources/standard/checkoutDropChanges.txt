@@ -1,0 +1,25 @@
+given files were added to index
+----------------------------
+some content here
+another boring string Apples and its price is 1721 $
+----------------------------
+given files were added to index
+----------------------------
+def f():
+    return "yes"
+----------------------------
+commited successfully!
+----------------------------
+some content here
+another boring string Apples and its price is 1721 $random string
+----------------------------
+def f():
+    return "yes"
+		some random content
+----------------------------
+some content here
+another boring string Apples and its price is 1721 $
+----------------------------
+def f():
+    return "yes"
+----------------------------

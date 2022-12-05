@@ -1,0 +1,22 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+reset done
+----------------------------
+commit rbtfva4b6qpjfz0rxl8my1spduvrj7
+author: USER
+date: 2022/11/01;21:09:57
+message: "1"
+
+commit jhp9lu92t9yds68g28f4tju0l7i2uu
+author: USER
+date: 2022/11/01;21:09:57
+message: init commit
+
+
+----------------------------

@@ -1,0 +1,16 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+On branch <master>
+Untracked files:
+	new:     	x.txt
+----------------------------
+now current branch is: <new>
+----------------------------
+given files were added to index
+----------------------------
+On branch <new>
+Changes to be committed:
+	new:     	x.txt
+----------------------------

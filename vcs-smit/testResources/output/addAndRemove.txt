@@ -1,0 +1,15 @@
+given files were added to index
+----------------------------
+On branch <master>
+Changes to be committed:
+	new:     	x.txt
+	new:     	y.py
+----------------------------
+files were removed
+----------------------------
+On branch <master>
+Changes to be committed:
+	new:     	x.txt
+Untracked files:
+	new:     	y.py
+----------------------------

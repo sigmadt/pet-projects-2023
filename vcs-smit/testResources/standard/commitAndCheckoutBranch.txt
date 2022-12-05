@@ -1,0 +1,65 @@
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+given files were added to index
+----------------------------
+commited successfully!
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "2"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------
+You are in 'detached HEAD' state.
+checkout done
+----------------------------
+HEAD detached at COMMIT_HASH
+Everything is up to date!
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------
+checkout done
+----------------------------
+On branch <master>
+Everything is up to date!
+----------------------------
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "2"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: "1"
+
+commit COMMIT_HASH
+author: USER
+date: DATE
+message: init commit
+
+
+----------------------------
