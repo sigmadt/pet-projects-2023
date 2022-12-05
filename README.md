@@ -40,6 +40,13 @@ Fully functional 2-D game using `AWT` and `Swing`.
 
 See project [`source code`](https://github.com/sigmadt/pet-projects-2022/tree/master/rogue-like).
 
+## 3. Version Constrol System
+VCS à la `git` named `smit`. You can add files, commit changes, traverse commit tree using `reset` and `checkout`, create branches, merge branches and more! 
+
+It is simple to launch on your local machine, colorized display is supported.
+
+See project [`source code`](https://github.com/sigmadt/pet-projects-2022/tree/master/vcs-smit). 
+
 # Python
 ## 1. Machine learning algorithms
 ### 1.1 Decision tree
