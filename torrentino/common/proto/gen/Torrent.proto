@@ -1,0 +1,103 @@
+syntax = "proto3";
+option java_multiple_files = true;
+
+package ru.itmo.java.message.tracker;
+
+message FileData {
+  int32 id = 1;
+  string name = 2;
+  uint64 size = 3;
+}
+
+
+message ClientData {
+  int32 port = 1;
+  bytes ip = 2;
+}
+
+
+message StatRequest {
+  int32 id = 1;
+}
+
+message StatResponse {
+  int32 count = 1;
+  repeated int32 part = 2;
+}
+
+message GetRequest {
+  int32 id = 1;
+  int32 part = 2;
+}
+
+message GetResponse {
+  bytes content = 1;
+}
+
+message ClientRequest {
+  oneof request {
+    StatRequest statRequest = 1;
+    GetRequest getRequest = 2;
+  }
+}
+message ClientResponse {
+  oneof response{
+    StatResponse statResponse = 1;
+    GetResponse getResponse = 2;
+  }
+}
+
+message ListRequest {
+}
+
+message ListResponse {
+  repeated FileData file = 2;
+}
+
+message UploadRequest {
+  FileData file = 1;
+}
+
+message UploadResponse {
+  int32 id = 1;
+}
+
+message SourceRequest {
+  int32 id = 1;
+}
+
+message SourceResponse {
+  int32 count = 1;
+  repeated ClientData client = 2;
+}
+
+message UpdateRequest {
+  int32 port = 1;
+  int32 count = 2;
+  repeated int32 id = 3;
+}
+
+message UpdateResponse {
+  bool status = 1;
+}
+
+
+
+
+message TrackerRequest {
+  oneof request {
+    ListRequest listRequest = 1;
+    UploadRequest uploadRequest = 2;
+    SourceRequest sourceRequest = 3;
+    UpdateRequest updateRequest = 4;
+  }
+}
+
+message TrackerResponse {
+  oneof response {
+    ListResponse listResponse = 1;
+    UploadResponse uploadResponse = 2;
+    SourceResponse sourceResponse = 3;
+    UpdateResponse updateResponse = 4;
+  }
+}
