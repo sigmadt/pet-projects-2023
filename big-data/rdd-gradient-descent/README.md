@@ -1,5 +1,5 @@
 # Distributed Gradient Descent
-This project is about implementation `gradient descent` using `RDD` in `Scala`. 
+This project is about implementation `linear regression` using `RDD` in `Scala`. 
 
 
 ## Parameters
